@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background: #e5e5e5 url("./image/greybg.png") no-repeat ;
+    min-width: 100%;
+    background-size: cover;
+    background-position: top -100px center;
+}
+
+.sub-container{
+    width: 546px;
+    margin: 0 auto;
+    position: relative;
+    top: 56px;
+}
+.logo{
+    width: 57.6px;
+    height: 23.97px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.form-container{
+    background: #ffffff;
+    padding: 48px 68px 72px 68px;
+}
+
+.form-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.5px;
+}
+ form > div {
+     margin:10px 0;
+ }
+form > div input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+.label-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.staysigned{
+    width: 20px;
+}
+button{
+    width: 100%;
+    background: purple;
+    color: white;
+    padding: 12px 0;
+    border-radius: 4px;
+}
+.sso{
+    text-align: center;
+    margin: 20px 0;
+}
+footer{
+    padding-left: 20px;
+    margin-top: 25px;
+}
+footer h3{
+    font-size: 14px;
+    color: #4f566b;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+footer h3 a{
+    color: purple;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20px;
+}
+.imgleft1,.imgleft2,.imgright1{
+    position: absolute;
+    width: 314px;
+    height: 107px;
+}
+.imgleft1{
+    top: 470px;
+}
+.imgleft2{
+    top: 460px;
+    width: 159px;
+    height: 73.5px;
+    left: 21px;
+}
+.imgright1{
+    right: 0;
+    top: 170px;
+}
+ul a{
+    font-size: 14px;
+    font-weight: 500;
+    color:#4f566b;
+    line-height: 16.5px;
+}
